@@ -7,7 +7,7 @@ using namespace std;
 
 int sigma_output(int a, int b);
 int stepFunction(float soma);
-float neuron();
+void neuron();
 
 std::vector<std::vector<int>> inputs = {{0, 0}, {0, 1}, {1, 0}, {1, 1}};
 std::vector<int> output = {0, 0, 0, 1};
@@ -25,7 +25,7 @@ int main() {
     return 0;
 }
 /*---------------- functions ----------------*/
-float neuron()
+void neuron()
 {
     float calculated_output = 0.0;
     int total_erros = 1;
