@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 Antonio Neto
+ * Copyright 2020 Antonio q. Neto
  * */
 
 #include <iostream>
