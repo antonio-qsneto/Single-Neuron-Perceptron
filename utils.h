@@ -6,9 +6,9 @@
 #define SINGLE_NEURON_PERCEPTRON_UTILS_H
 #include <iostream>
 
-class utils {
+class neuron {
 public:
-    void neuron();
+    void train();
     int stepFunction(float soma);
     int sigma_output(int a, int b);
 };

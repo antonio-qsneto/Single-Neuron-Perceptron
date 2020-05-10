@@ -15,7 +15,7 @@ std::vector<int> output = {0, 0, 0, 1};
 std::vector<float> weight = {0.0, 0.0};
 float learning_rate = 0.1;
 
-void utils::neuron() {
+void neuron::train() {
     float calculated_output = 0.0;
     int total_erros = 1;
 
@@ -47,13 +47,13 @@ void utils::neuron() {
         }
     }
 }
-int utils::stepFunction(float soma) {
+int neuron::stepFunction(float soma) {
     /*Step Function return 1 or 0
      * solve linear problems*/
     return soma >= 1 ? 1 : 0;
 }
 
-int utils::sigma_output(int a, int b) {
+int neuron::sigma_output(int a, int b) {
     std::vector<int> vec1;
     vec1.push_back(a);
     vec1.push_back(b);
@@ -62,7 +62,7 @@ int utils::sigma_output(int a, int b) {
         result += std::inner_product(begin(vec1),
                                      end(vec1), weight.begin(), 0.0);
     }
-    utils ativacao;
+    neuron ativacao;
     cout << ativacao.stepFunction(result) << endl;
     return ativacao.stepFunction(result);
 }

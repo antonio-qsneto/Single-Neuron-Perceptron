@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/neuron.cpp
+iostream
+-
+utils.h
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/utils.h
+
 /home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/utils.cpp
 iostream
 -
