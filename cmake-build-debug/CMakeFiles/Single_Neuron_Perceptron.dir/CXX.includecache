@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/utils.cpp
+iostream
+-
+cstdlib
+-
+vector
+-
+numeric
+-
+utils.h
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/utils.h
+
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/utils.h
+iostream
+-
+

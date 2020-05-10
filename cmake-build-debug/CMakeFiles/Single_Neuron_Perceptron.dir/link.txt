@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Single_Neuron_Perceptron.dir/neuron.cpp.o CMakeFiles/Single_Neuron_Perceptron.dir/utils.cpp.o  -o Single_Neuron_Perceptron 

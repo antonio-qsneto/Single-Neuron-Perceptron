@@ -1,0 +1,3 @@
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qwerty/Documentos/teste_oo/Single-Neuron-Perceptron/cmake-build-debug/CMakeFiles/Single_Neuron_Perceptron.dir
