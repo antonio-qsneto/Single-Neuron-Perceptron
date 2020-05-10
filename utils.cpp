@@ -62,7 +62,6 @@ int neuron::sigma_output(int a, int b) {
         result += std::inner_product(begin(vec1),
                                      end(vec1), weight.begin(), 0.0);
     }
-    neuron ativacao;
-    cout << ativacao.stepFunction(result) << endl;
-    return ativacao.stepFunction(result);
+    cout << this->stepFunction(result) << endl;
+    return this->stepFunction(result);
 }
